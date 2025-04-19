@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements - Kenya</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Karibu! HTML5 Demo Page - Kenya Edition</h1>
+        <p>This page showcases HTML5 elements</p>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Topics Covered</h2>
+        <ol type="I">
+            <li>HTML5 Lists</li>
+            <li>Images</li>
+            <li>Tables</li>
+            <li>Forms</li>
+            <li>Multimedia</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>Beautiful Kenya</h2>
+        <img src="https://images.pexels.com/photos/1428885/pexels-photo-1428885.jpeg" alt="Kenyan Landscape" width="600">
+    </section>
+
+    <!-- Contact Table -->
+    <section>
+        <h2>Kenyan Contact List</h2>
+        <table border="1" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Wanjiku Mwangi</td>
+                    <td>Ngong Road, Nairobi</td>
+                    <td>+254 712 345678</td>
+                    <td>wanjiku@example.co.ke</td>
+                </tr>
+                <tr>
+                    <td>Brian Otieno</td>
+                    <td>Tudor, Mombasa</td>
+                    <td>+254 721 567890</td>
+                    <td>brian.otieno@example.co.ke</td>
+                </tr>
+                <tr>
+                    <td>Mercy Achieng</td>
+                    <td>Kisumu CBD</td>
+                    <td>+254 734 678901</td>
+                    <td>mercy.achieng@example.co.ke</td>
+                </tr>
+                <tr>
+                    <td>David Kiprono</td>
+                    <td>Eldoret City/td>
+                    <td>+254 745 789012</td>
+                    <td>kiprono.david@example.co.ke</td>
+                </tr>
+                <tr>
+                    <td>Faith Wairimu</td>
+                    <td>Nyeri County</td>
+                    <td>+254 756 890123</td>
+                    <td>faith.wairimu@example.co.ke</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form (Kenya)</h2>
+        <form>
+            <!-- Name -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="e.g. Amina Hassan" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="e.g. amina@example.co.ke" required><br><br>
+
+            <!-- Password -->
+            <label for="password">Create Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Minimum 6 characters" minlength="6" required><br><br>
+
+            <!-- Date -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown -->
+            <label for="county">County:</label><br>
+            <select id="county" name="county" required>
+                <option value="">--Select County--</option>
+                <option value="nairobi">Nairobi</option>
+                <option value="mombasa">Mombasa</option>
+                <option value="kisumu">Kisumu</option>
+                <option value="nakuru">Nakuru</option>
+                <option value="eldoret">Uasin Gishu</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Hobbies:</label><br>
+            <input type="checkbox" id="football" name="hobbies" value="football">
+            <label for="football">Football</label><br>
+            <input type="checkbox" id="reading" name="hobbies" value="reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+            <label for="traveling">Traveling</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Audio and Video Section -->
+    <section>
+        <h2>Multimedia Section</h2>
+
+        <!-- Audio -->
+        <p>Listen to a Kenyan folk tune:</p>
+        <audio controls>
+            <source src="sample-kenyan-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio><br><br>
+
+        <!-- Video -->
+        <p>Watch a clip of Kenyan wildlife:</p>
+        <video width="400" controls>
+            <source src="sample-kenya-wildlife.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 HTML5 Demo - Kenya. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
